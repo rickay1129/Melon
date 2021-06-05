@@ -22,6 +22,7 @@ def getChromeDriver(headless=True):
     driver.implicitly_wait(2)
     return driver
 
+
 # download the top 50 chart
 driver = getChromeDriver(headless=False)
 driver.get('https://www.melon.com/chart/index.htm')
